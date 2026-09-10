@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import heroImage from '../assets/hero.png';
 
 const words = ['Full-Stack Developer', 'Accounting Student'];
 
@@ -55,15 +56,15 @@ export default function Hero() {
             <a href="/cv/cv-bassma-ait-el-cadi.pdf" className="btn btn-outline" download>Download CV</a>
           </div>
           <div className="hero-socials">
-            <a href="https://github.com/BassmaAitElCadi" target="_blank" rel="noopener" aria-label="GitHub"><i className="fab fa-github" /></a>
-            <a href="https://www.linkedin.com/in/bassma-ait-el-cadi" target="_blank" rel="noopener" aria-label="LinkedIn"><i className="fab fa-linkedin-in" /></a>
-            <a href="https://www.instagram.com/bassma_ait_el_cadi" target="_blank" rel="noopener" aria-label="Instagram"><i className="fab fa-instagram" /></a>
-            <a href="https://wa.me/212600000000" target="_blank" rel="noopener" aria-label="WhatsApp"><i className="fab fa-whatsapp" /></a>
+            <a href="https://github.com/AIT-ELCADI" target="_blank" rel="noopener" aria-label="GitHub"><i className="fab fa-github" /></a>
+            <a href="https://www.linkedin.com/in/bassma-ait-elcadi/" target="_blank" rel="noopener" aria-label="LinkedIn"><i className="fab fa-linkedin-in" /></a>
+            <a href="https://www.instagram.com/_bassmaah" target="_blank" rel="noopener" aria-label="Instagram"><i className="fab fa-instagram" /></a>
+            <a href="https://wa.me/212658718865" target="_blank" rel="noopener" aria-label="WhatsApp"><i className="fab fa-whatsapp" /></a>
           </div>
         </div>
         <div className="hero-visual">
           <div className="hero-image-wrapper">
-            <img src="/img/da46ac04-3b81-4df0-9eab-c9be4ed68ef1 (1).jpg" alt="Bassma Ait El Cadi" className="hero-image" />
+            <img src={heroImage} alt="Bassma Ait El Cadi" className="hero-image" />
             <div className="hero-image-ring" />
           </div>
           <div className="hero-stats">

@@ -15,15 +15,18 @@ export default function Experience() {
             <div className="timeline-dot" />
             <div className="timeline-content">
               <span className="timeline-date">Internship</span>
-              <h4 className="timeline-title">Web Development Intern</h4>
+              <h4 className="timeline-title">Administrative &amp; Accounting Intern</h4>
+              <p className="timeline-company">Restaurant Administration Department</p>
               <p className="timeline-desc">
-                Gained hands-on experience in a professional development environment:
+                During my internship I contributed to administrative and accounting operations while improving my organizational and communication skills.
               </p>
               <ul className="timeline-list">
-                <li>Contributed to real-world web development projects</li>
-                <li>Collaborated with senior developers on code reviews</li>
-                <li>Applied best practices in HTML, CSS, and JavaScript</li>
-                <li>Strengthened problem-solving and debugging skills</li>
+                <li>Recorded daily &amp; weekly revenues.</li>
+                <li>Prepared financial reports.</li>
+                <li>Managed invoices and cheques.</li>
+                <li>Communicated with suppliers.</li>
+                <li>Organized administrative documents.</li>
+                <li>Worked with Microsoft Excel.</li>
               </ul>
             </div>
           </div>

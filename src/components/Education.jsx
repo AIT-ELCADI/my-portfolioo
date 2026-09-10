@@ -1,9 +1,9 @@
 import useScrollReveal from '../hooks/useScrollReveal';
 
 const items = [
-  { date: '2024 — Present', title: 'Web Development Training', company: 'WingsTech Center', desc: 'Intensive training in modern web development technologies and best practices.' },
-  { date: 'University', title: "Bachelor's Degree in Accounting", company: 'Hassan II University', desc: 'Strong foundation in analytical thinking, data management, and financial analysis.' },
-  { date: 'High School', title: 'Baccalaureate in Accounting', desc: 'Academic background in accounting and quantitative analysis.' },
+  { date: 'May 2026 — Present', title: 'Web Development Training', company: 'WingsTech Center', desc: 'Intensive training in modern web development technologies and best practices.' },
+  { date: '2024 — Present', title: "Bachelor's Degree in Accounting", company: 'Hassan II University', desc: 'Strong foundation in analytical thinking, data management, and financial analysis.' },
+  { date: '2023 — 2024', title: 'Baccalaureate in Accounting', desc: 'Academic background in accounting and quantitative analysis.' },
 ];
 
 export default function Education() {
