@@ -7,7 +7,10 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "oxlint",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "generate:github": "node scripts/fetch-github-graph.mjs",
+    "predev": "npm run generate:github || true",
+    "prebuild": "npm run generate:github || true"
   },
   "dependencies": {
     "@base-ui/react": "^1.7.0",

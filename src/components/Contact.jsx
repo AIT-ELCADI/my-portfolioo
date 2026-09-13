@@ -32,7 +32,7 @@ export default function Contact() {
   return (
     <section className="contact" id="contact">
       <div className="container">
-        <p ref={labelRef} className="section-label">07 / Contact</p>
+        <p ref={labelRef} className="section-label">08 / Contact</p>
         <h2 ref={titleRef} className="section-title">Let's Connect</h2>
         <div className="contact-grid">
           <div ref={infoRef} className="contact-info">

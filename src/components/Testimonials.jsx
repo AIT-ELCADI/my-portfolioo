@@ -13,7 +13,7 @@ export default function Testimonials() {
   return (
     <section className="testimonials" id="testimonials">
       <div className="container">
-        <p ref={labelRef} className="section-label">06 / Testimonials</p>
+        <p ref={labelRef} className="section-label">07 / Testimonials</p>
         <h2 ref={titleRef} className="section-title">What People Say</h2>
         <div className="testimonials-grid">
           {testimonials.map((t, i) => (

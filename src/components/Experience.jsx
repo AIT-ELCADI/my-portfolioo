@@ -8,7 +8,7 @@ export default function Experience() {
   return (
     <section className="experience" id="experience">
       <div className="container">
-        <p ref={labelRef} className="section-label">04 / Experience</p>
+        <p ref={labelRef} className="section-label">05 / Experience</p>
         <h2 ref={titleRef} className="section-title">Work Experience</h2>
         <div ref={timelineRef} className="timeline">
           <div className="timeline-item">

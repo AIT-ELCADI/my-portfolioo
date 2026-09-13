@@ -14,7 +14,7 @@ export default function Education() {
   return (
     <section className="education" id="education">
       <div className="container">
-        <p ref={labelRef} className="section-label">05 / Education</p>
+        <p ref={labelRef} className="section-label">06 / Education</p>
         <h2 ref={titleRef} className="section-title">Education</h2>
         <div ref={timelineRef} className="timeline">
           {items.map((item, i) => (
