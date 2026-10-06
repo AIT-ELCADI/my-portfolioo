@@ -37,9 +37,15 @@ const projects = [
   },
   {
     number: '04',
-    title: 'Coming Soon',
-    desc: 'This project is under development. Stay tuned for updates and new features.',
-    tags: ['React', 'Tailwind CSS', 'Node.js'],
+    title: 'SkillSync',
+    image: '/img/skillsync.png',
+    alt: 'SkillSync AI-powered career matching platform',
+    desc: 'An AI-powered career matching platform that analyzes CVs against job descriptions using deterministic server-side scoring. Features eight-category CV analysis (100 pts), six-dimension job matching (100 pts), evidence verification, OCR for scanned PDFs, and a free tier with three AI passes — all with private-by-default document handling.',
+    tags: ['React 18', 'Vite', 'Tailwind CSS', 'Node.js', 'Express', 'MongoDB', 'Groq AI'],
+    links: [
+      { href: 'https://skill-sync-by-bassma.vercel.app', type: 'live', label: 'Live Demo' },
+      { href: 'https://github.com/AIT-ELCADI/SkillSync', type: 'github' },
+    ],
   },
   {
     number: '05',
