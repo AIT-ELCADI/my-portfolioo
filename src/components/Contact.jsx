@@ -55,7 +55,7 @@ export default function Contact() {
               </div>
             </div>
             <div className="contact-socials">
-              <a href="https://github.com/AIT-ELCADI" target="_blank" rel="noopener" className="social-link github" aria-label="GitHub"><i className="fab fa-github" /></a>
+              <a href="https://github.com/AIT-ELCADI" target="_blank" rel="noopener noreferrer" className="social-link github" aria-label="GitHub"><i className="fab fa-github" /></a>
               <a href="https://www.linkedin.com/in/bassma-ait-elcadi/" target="_blank" rel="noopener" className="social-link linkedin" aria-label="LinkedIn"><i className="fab fa-linkedin-in" /></a>
               <a href="https://www.instagram.com/_bassmaah" target="_blank" rel="noopener" className="social-link instagram" aria-label="Instagram"><i className="fab fa-instagram" /></a>
               <a href="https://wa.me/212658718865" target="_blank" rel="noopener" className="social-link whatsapp" aria-label="WhatsApp"><i className="fab fa-whatsapp" /></a>
